@@ -14,9 +14,9 @@ base('sneakers').select({
             var sneakerName = document.createElement("h1");
             sneakerName.innerHTML = record.fields.sneaker_name;
             document.body.append(sneakerName);
+            // sneakerName.classList.add(“sneaker_name”);
 
             console.log(record.fields);
-
             
 
     });

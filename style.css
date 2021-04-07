@@ -19,14 +19,14 @@ body{
 h1{
     margin-top: -50px;;
     font-family: NeueMontreal;
-    font-size: 6.5em;
+    font-size: 6em;
     line-height: 1em;
 }
 button{
   margin-bottom: 70px;
   margin-top: -300px;
     font-family: NeueMontreal;
-    font-size: 6.5em;
+    font-size: 6em;
     line-height: 1.2em;
     text-align: center;
     border-color: black;
@@ -44,6 +44,22 @@ button{
     cursor: url('images/bigmouse.png'), auto;
 } 
   .dropdown {
+    padding-left: 13px;
+    position: relative;
+    display: inline-block;
+    cursor: url('images/bigmouse.png'), auto;
+    border-color: black;
+    border-width: .05em;
+  }
+  .dropdown2{
+    padding-left: 13px;
+    position: relative;
+    display: inline-block;
+    cursor: url('images/bigmouse.png'), auto;
+    border-color: black;
+    border-width: .05em;
+  }
+  .dropdown3{
     padding-left: 13px;
     position: relative;
     display: inline-block;
