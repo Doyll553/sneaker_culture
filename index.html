@@ -13,21 +13,32 @@
 	<div class="dropdown">
 		<button class="dropbtn">Designer</button>
 		<div class="dropdown-content">
-		<a href="#">Man</a>
-		<a href="#">Woman</a>
+		<button id="man">Man</button>
+		<button id="woman">Woman</button>
 		</div>
 		<div class="dropdown2">
 	<button class="dropbtn">Price</button>
 			<div class="dropdown-content">
-			<a href="#">Retail</a>
-			<a href="#">Resale</a>
+			<button>Retail</button>
+				<div class="dropdown-content">
+					<button id="retail_high">High to Low</button>
+					<button id="retail_low">Low to High</button>
+				</div>
+			<button>Resale</button>
+			<div class="dropdown-content">
+				<button id="resale_high">High to Low</button>
+				<button id="resale_low">Low to High</button>
+			</div>
 			</div>
 			<div class="dropdown3">
 	<button class="dropbtn">Release Date</button>
 				<div class="dropdown-content">
-				<a href="#">Oldest to Newest</a>
-				<a href="#">Newest to Oldest</a>
+				<button class="long" id="old">Oldest to Newest</button>
+				<button class="long" id="new">Newest to Oldest</button>
 				</div>
+	<div class="dropdown">			
+			<button>Reset</button>
+	</div>
     <script src="lib/airtable.browser.js"></script>
     <script src="main.js"></script>
 </body>

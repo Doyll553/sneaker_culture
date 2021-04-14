@@ -20,13 +20,13 @@ h1{
     margin-top: -50px;;
     font-family: NeueMontreal;
     font-size: 6em;
-    line-height: 1em;
+    line-height: .98em;
 }
 button{
   margin-bottom: 70px;
-  margin-top: -300px;
+  margin-top: -1000px;
     font-family: NeueMontreal;
-    font-size: 6em;
+    font-size: 5.25em;
     line-height: 1.2em;
     text-align: center;
     border-color: black;
@@ -68,10 +68,11 @@ button{
     border-width: .05em;
   }
   .dropdown-content {
-    margin-top: -100px;
+    border-color: black;
+    border-width: .05em;
+    padding-left: 30px;
     display: none;
     position: absolute;
-    background-color: #f9f9f9;
     z-index: 1;
     cursor: url('images/bigmouse.png'), auto;
   } 
@@ -90,6 +91,10 @@ button{
     display: block;
     cursor: url('images/bigmouse.png'), auto;
 
+  }
+  .long{
+    text-align: left;
+    line-height: 90px;;
   }
 
 a.ex4:hover, a.ex4:active {font-family: EditorialNew;}
